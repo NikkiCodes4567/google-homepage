@@ -1,0 +1,89 @@
+.navigation_bar{
+    text-align: right;
+    font-size: 13px;
+    color: #FFFFFF;
+    font-family: arial,sans-serif;
+}
+
+.navigation_bar2{
+    text-align: left;
+    margin-top:-30px;
+    font-size: 13px;
+    color: #FFFFFF;
+    font-family: arial,sans-serif;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 26%;
+    padding-block-start: 7%;
+  }
+
+  .search_box2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-block-start: 1.5%;
+    border-radius: 24px;
+    height: 44px;
+    box-shadow: none;
+    border: 1px solid #dfe1e5;
+    width: 530px;
+    height: 40px;
+    padding-left: 61px;
+}
+
+.search-text-input6{
+    display: block;
+    margin-left: 30%;
+    margin-right: auto;
+    margin-block-start:-2.5%;
+    height: 25px;
+    width: 25px;
+}
+
+.search-text-input7{
+    display: block;
+    margin-left: auto;
+    margin-right: 30%;
+    margin-block-start:-1.905%;
+    height: 29px;
+    width: 27px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.button{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #f8f9fa;
+    color: #59595a;
+}
+
+
+a:link, a:visited {
+    color: black;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+/* Received code from an outside Source:https://www.tutorialrepublic.com/faq/how-to-remove-outline-around-text-input-boxes-in-chrome-using-css.php */
+/* I used this code to help me remove the pink box from the chrome search field. */
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
