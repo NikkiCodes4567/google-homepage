@@ -131,7 +131,7 @@ input:focus, textarea:focus, select:focus{
     border-top: 1px solid #e4e4e4;
     padding-bottom: 20px;
     padding-left:50px;
-  }
+    }
 
   #footer_bar {
     position: absolute;
